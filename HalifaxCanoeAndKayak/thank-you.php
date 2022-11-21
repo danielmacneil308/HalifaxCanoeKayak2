@@ -1,5 +1,6 @@
 <?php
-
+include './templates/header.html';
+include './templates/popout.html';
 
 $email = $_GET['email'];
 $location = $_GET['location'];
