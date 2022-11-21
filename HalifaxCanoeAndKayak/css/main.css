@@ -1,0 +1,168 @@
+/* Core Styles */
+
+html {
+    height: 100%;
+}
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+/* Header Styles */
+#mainheader {
+    background-color: rgb(16, 16, 107);
+    height: 4em;
+}
+
+#mainheader ul {
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    
+}
+
+#mainheader ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    line-height: 60px;
+}
+
+.title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    padding-left: 44%;
+  }
+
+  /* Main Image Styles */
+.image-container img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    position: relative;
+    
+}
+
+.imageText {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    color: white;
+    
+    
+  }
+
+  /* Main Content Section Styles */
+  #main {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto; 
+    position: relative;
+    z-index: -1;
+  }
+
+  .upcoming-adventures {
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+  }
+
+  .destination {
+    color: rgb(62, 161, 62);
+    text-decoration: underline;
+    font-size: 3em;
+    
+  }
+
+
+
+
+  @media only screen and (max-width: 1399px){
+
+    .title {
+        padding-left: 30%;
+        font-size: 1.2em;
+    }
+
+    .logo {
+        padding-left: 27%;
+        
+    }
+
+    .imageText{
+        font-size: 3em;
+        top: 12%;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1400px){
+    body {
+        width: 100%;
+    }
+
+    .image-container{
+        width: 100%;
+    }
+
+    .title {
+        padding-left: 30%;
+        font-size: 1.5em;
+        
+    }
+
+
+    .imageText {
+        font-size: 3em;
+        top: 15%;
+        
+    }
+
+}  
+
+/* JQuery Menu Styles */
+#menu{
+    background-color: rgb(16, 16, 107);
+    min-height: 150%;
+    float: left;
+    width: 45%;
+    z-index: 0;
+    position: absolute;
+    display: none;
+    
+  }
+
+  #menu ul {
+    list-style-type: none;
+    height: 100%;
+
+  }
+
+  #menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+  }
+
+  #menu ul li {
+    font-size: 3em;
+    line-height: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #hamburger{
+    cursor: pointer;
+  }
+  
